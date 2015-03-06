@@ -1,0 +1,28 @@
+[02-Mar-2015 16:27:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'garnier.recommendation' doesn't exist' in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(358): PDO->prepare('insert into `re...')
+#1 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `re...', Array)
+#2 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `re...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `re...', Array, Object(Closure)) in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php on line 614
+[03-Mar-2015 01:49:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_email' cannot be null' in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `re...', Array)
+#2 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `re...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `re...', Array, Object(Closure))
+#4 /home/blac in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php on line 614
+[03-Mar-2015 01:53:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_email' cannot be null' in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `re...', Array)
+#2 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `re...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `re...', Array, Object(Closure))
+#4 /home/blac in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php on line 614
+[03-Mar-2015 02:02:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_email' cannot be null' in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php:358
+Stack trace:
+#0 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(358): PDOStatement->execute(Array)
+#1 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(606): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `re...', Array)
+#2 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(570): Illuminate\Database\Connection->runQueryCallback('insert into `re...', Array, Object(Closure))
+#3 /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php(359): Illuminate\Database\Connection->run('insert into `re...', Array, Object(Closure))
+#4 /home/blac in /home/blackboxdev/public_html/projects/garnierx/core/vendor/illuminate/database/Connection.php on line 614
+[03-Mar-2015 03:01:19 UTC] PHP Fatal error:  Class 'Recommendation' not found in /home/blackboxdev/public_html/projects/garnierx/_includes/my-recommendation-widget.php on line 10
